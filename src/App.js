@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import axios from "axios";
-import logo from "./logo.svg";
-import "./App.css";
 import Members from "./components/Members/Members";
 import Form from "./components/Form/Form";
+import "./App.css";
 
 class App extends Component {
   constructor(props) {
