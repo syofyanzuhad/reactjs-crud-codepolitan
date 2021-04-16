@@ -1,6 +1,6 @@
 import React from 'react'
 
-const member = (props) => (
+const Member = (props) => (
    <div className="col-md-6" key={props.member.id}>
       <div className="card" style={{ margin: 10}}>
       <div className="card-body">
@@ -24,4 +24,4 @@ const member = (props) => (
    </div>
 )
 
-export default member
+export default Member

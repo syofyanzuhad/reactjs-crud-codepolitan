@@ -1,7 +1,7 @@
 import React from 'react'
 import Member from './Member'
 
-const members = (props) => (
+const Members = (props) => (
    props.members.map((member) => (
       <Member 
          member={member}
@@ -11,4 +11,4 @@ const members = (props) => (
    ))
 )
 
-export default members
+export default Members
